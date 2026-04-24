@@ -17,7 +17,7 @@ This project aims to:
 The methodology follows best practices recommended in the remote sensing accuracy assessment literature (e.g., confusion matrix–based evaluation).
 
 ## Code Overview
-1. Imports and Dependencies
+### 1. Imports and Dependencies
 
 ```python
 import numpy as np
@@ -36,7 +36,7 @@ These libraries are used for:
 -matplotlib & seaborn: Visualization of confusion matrices
 -os: Managing paths and directories
 
-2. Loading Raster Data
+### 2. Loading Raster Data
    
 ```python
 def load_raster(path):
@@ -47,7 +47,7 @@ def load_raster(path):
 - Reads a raster file and returns a 2D NumPy array of pixel values.
 - Used for both the reference raster (ESA CCI) and comparison raster (GLC).
 
-3. Computing the Confusion Matrix
+### 3. Computing the Confusion Matrix
    
 ```python
 def compute_confusion_matrix(y_true, y_pred, labels=None):
@@ -71,9 +71,9 @@ def compute_confusion_matrix(y_true, y_pred, labels=None):
 - Counts the number of pixels classified into each category (rows = true, columns = predicted)
 - Returns a pandas DataFrame representing the confusion matrix
 
-4. Accuracy Metrics
+### 4. Accuracy Metrics
    
-a) Overall Accuracy (OA)
+#### a) Overall Accuracy (OA)
 
 ```python
 def overall_accuracy(confusion_matrix):
@@ -83,7 +83,7 @@ def overall_accuracy(confusion_matrix):
 
 - Percentage of correctly classified pixels (sum of diagonal / total pixels)
 
-b) Kappa Coefficient
+#### b) Kappa Coefficient
 
 ```python
 def kappa_coefficient(confusion_matrix):
@@ -99,7 +99,7 @@ def kappa_coefficient(confusion_matrix):
 - Measures agreement accounting for chance
 - Values range from -1 to 1, with 1 indicating perfect agreement
 
-c) Producer’s Accuracy (PA)
+#### c) Producer’s Accuracy (PA)
 
 ```python
 def producers_accuracy(confusion_matrix):
@@ -111,7 +111,7 @@ def producers_accuracy(confusion_matrix):
 
 - Probability that a reference pixel is correctly classified (omission error)
 
-d) User’s Accuracy (UA)
+#### d) User’s Accuracy (UA)
 
 ```python
 def users_accuracy(confusion_matrix):
@@ -123,7 +123,7 @@ def users_accuracy(confusion_matrix):
 
 - Probability that a pixel classified into a category actually belongs to that category (commission error)
 
-5. Main Workflow
+### 5. Main Workflow
 
 - Input Paths: Paths to ESA CCI and GLC rasters are defined.
 - Output Directory: An output/ folder is created automatically.
@@ -134,7 +134,7 @@ def users_accuracy(confusion_matrix):
 - Save Outputs: Confusion matrix and accuracy summary saved as CSV.
 - Visualize Confusion Matrix: Heatmap generated with seaborn and saved as PNG.
 
-6. Output Files
+### 6. Output Files
 
 | File                   | Description                                            |
 | ---------------------- | ------------------------------------------------------ |
