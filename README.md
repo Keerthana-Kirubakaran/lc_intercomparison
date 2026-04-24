@@ -196,7 +196,7 @@ Ensure that the input rasters:
 - Use harmonized class definitions
 - Have no-data values handled prior to analysis
 
-The paths to these raster files must be updated manually in `lc_intercomparison_full.py` before running the analysis.
+The paths to these raster files must be updated manually in `lc_intercomparison.py` before running the analysis.
 
 ## Installation
 Clone the repository:
