@@ -182,11 +182,11 @@ lc_intercomparison/
 - Rasters must have identical projection, resolution, and extent
 - No-data values must be handled prior to analysis
 - Classes should be harmonized across datasets
-
+```
 data/
 ├── reference_lc.tif  (Reference land cover raster)
 └── comparison_lc.tif  (Comparison land cover raster)
-
+```
 Ensure that the input rasters:
 - Are in GeoTIFF (`.tif`) format
 - Have identical projection, spatial resolution, and spatial extent
@@ -205,7 +205,9 @@ conda create -n lc_intercomparison python=3.9 -y
 conda activate lc_intercomparison
 
 Install dependencies:
+```python
 pip install numpy pandas rasterio matplotlib seaborn
+```
 
 ## Usage
 1. Edit the input paths in lc_intercomparison_full.py to point to your land cover raster datasets:
