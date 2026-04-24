@@ -220,11 +220,10 @@ pip install numpy pandas rasterio matplotlib seaborn
 - Comparison Landcover raster (e.g., GLC_FCS30)
 2. Run the script:
 ```python
-lc_accuracy/
-rater_io.py
-confusion_matrix.py
-accuracy_metrics.py
-main.py
+lc_accuracy/rater_io.py
+lc_accuracy/confusion_matrix.py
+lc_accuracy/accuracy_metrics.py
+lc_accuracy/main.py
 ```
 
 3. All outputs will be saved automatically in the output/ directory.
