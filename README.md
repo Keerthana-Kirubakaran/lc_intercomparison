@@ -17,6 +17,7 @@ This project aims to:
 The methodology follows best practices recommended in the remote sensing accuracy assessment literature (e.g., confusion matrix–based evaluation).
 
 ## Code Overview
+
 ### 1. Imports and Dependencies
 
 ```python
@@ -26,7 +27,7 @@ import rasterio
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
-import sys`
+import sys
 ```
 
 These libraries are used for:
@@ -182,10 +183,12 @@ lc_intercomparison/
 - Rasters must have identical projection, resolution, and extent
 - No-data values must be handled prior to analysis
 - Classes should be harmonized across datasets
-```
+
+```python
 data/
 ├── reference_lc.tif  (Reference land cover raster)
 └── comparison_lc.tif  (Comparison land cover raster)
+
 ```
 Ensure that the input rasters:
 - Are in GeoTIFF (`.tif`) format
