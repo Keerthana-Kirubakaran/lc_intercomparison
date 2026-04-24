@@ -186,8 +186,8 @@ lc_intercomparison/
 
 ```python
 data/
-├── reference_lc.tif  (ESACCI - Reference land cover raster)
-└── comparison_lc.tif  (GLC - Comparison land cover raster)
+├── reference_lc.tif  ( Reference Landcover raster)
+└── comparison_lc.tif  (Comparison Landcover raster)
 
 ```
 Ensure that the input rasters:
@@ -214,10 +214,10 @@ pip install numpy pandas rasterio matplotlib seaborn
 
 ## Usage
 1. Edit the input paths in lc_intercomparison_full.py to point to your land cover raster datasets:
-- Reference raster (e.g., ESA CCI)
-- Comparison raster (e.g., GLC_FCS30)
+- Reference Landcover raster (e.g., ESA CCI)
+- Comparison Landcover raster (e.g., GLC_FCS30)
 2. Run the script:
-python lc_accuracy/lc_intercomparison_full.py
+python lc_accuracy/lc_intercomparison.py
 3. All outputs will be saved automatically in the output/ directory.
 
 ## Outputs
