@@ -22,13 +22,13 @@ if __name__ == "__main__":
     # ----------------------------
     # Input paths
     # ----------------------------
-    cci_path = r"C:\Users\user\projects\lc_intercomparison\data\Tevere_ESA_2000.tif"
-    glc_path = r"C:\Users\user\projects\lc_intercomparison\data\Tevere_GLC_2000_1.tif"
+    cci_path = r"C:\Users\user\projects\lc_intercomparison_full\data\Tevere_ESA_2000.tif"
+    glc_path = r"C:\Users\user\projects\lc_intercomparison_full\data\Tevere_GLC_2000_1.tif"
 
     # ----------------------------
     # Output folder
     # ----------------------------
-    output_dir = r"C:\Users\user\projects\lc_intercomparison\output"
+    output_dir = r"C:\Users\user\projects\lc_intercomparison_full\output"
     os.makedirs(output_dir, exist_ok=True)
 
     cm_csv = os.path.join(output_dir, "tevere_cfm_2000_1.csv")
