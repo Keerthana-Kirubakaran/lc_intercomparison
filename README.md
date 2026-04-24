@@ -18,7 +18,7 @@ The methodology follows best practices recommended in the remote sensing accurac
 
 ## Code Overview
 1. Imports and Dependencies
-
+'''
 import numpy as np
 import pandas as pd
 import rasterio
@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 import sys
-
+'''
 These libraries are used for:
 -numpy: Array manipulation and numerical calculations
 -pandas: Creating tables and exporting CSVs
