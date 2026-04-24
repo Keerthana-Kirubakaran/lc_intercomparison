@@ -1,0 +1,5 @@
+Metric,Value
+Overall Accuracy,0.27665014614309313
+Kappa Coefficient,0.015938087344765
+Mean Producer's Accuracy,0.12956504443570513
+Mean User's Accuracy,0.1869067458703207
