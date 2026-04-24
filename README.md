@@ -1,4 +1,4 @@
-# Land-Cover Map Intercomparison (LC Intercomparison) (new)
+# Land-Cover Map Intercomparison (LC Intercomparison)
 
 ## Project Overview
 
