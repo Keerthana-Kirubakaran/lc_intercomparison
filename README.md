@@ -215,7 +215,7 @@ pip install numpy pandas rasterio matplotlib seaborn
 ```
 
 ## Usage
-1. Edit the input paths in main.py to point to your land cover raster datasets:
+1. Edit the input and output paths in main.py to point to your land cover raster datasets:
 - Reference Landcover raster (e.g., ESA CCI)
 - Comparison Landcover raster (e.g., GLC_FCS30)
 2. Run the script:
