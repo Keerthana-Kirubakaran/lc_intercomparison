@@ -186,8 +186,8 @@ lc_intercomparison/
 
 ```python
 data/
-├── reference_lc.tif  (Reference land cover raster)
-└── comparison_lc.tif  (Comparison land cover raster)
+├── reference_lc.tif  (ESACCI - Reference land cover raster)
+└── comparison_lc.tif  (GLC - Comparison land cover raster)
 
 ```
 Ensure that the input rasters:
