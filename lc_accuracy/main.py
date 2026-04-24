@@ -31,9 +31,9 @@ if __name__ == "__main__":
     output_dir = r"C:\Users\user\projects\lc_intercomparison\output"
     os.makedirs(output_dir, exist_ok=True)
 
-    cm_csv = os.path.join(output_dir, "tevere_cfm_2000.csv")
-    acc_csv = os.path.join(output_dir, "tevere_accuracy_summary_2000.csv")
-    cm_png = os.path.join(output_dir, "tevere_cfm_htmap_2000.png")
+    cm_csv = os.path.join(output_dir, "tevere_cfm_2000_1.csv")
+    acc_csv = os.path.join(output_dir, "tevere_accuracy_summary_2000_1.csv")
+    cm_png = os.path.join(output_dir, "tevere_cfm_heatmap_2000_1.png")
 
     # ----------------------------
     # Load rasters

@@ -1,5 +1,5 @@
-# Land-Cover Map Intercomparison (LC Intercomparison)
-
+# Land-Cover Map Intercomparison (LC Intercomparison) (new)
+serdfghuytserxcghuydrsexcfghj
 ## Project Overview
 
 LC Intercomparison is a research-oriented Python framework developed as part of a PhD-level geospatial processing course. The project focuses on the pixel-wise intercomparison of land cover (LC) raster products and the quantitative evaluation of their agreement using standard accuracy assessment metrics widely adopted in remote sensing literature.
