@@ -213,7 +213,7 @@ pip install numpy pandas rasterio matplotlib seaborn
 ```
 
 ## Usage
-1. Edit the input paths in lc_intercomparison_full.py to point to your land cover raster datasets:
+1. Edit the input paths in lc_intercomparison.py to point to your land cover raster datasets:
 - Reference Landcover raster (e.g., ESA CCI)
 - Comparison Landcover raster (e.g., GLC_FCS30)
 2. Run the script:
