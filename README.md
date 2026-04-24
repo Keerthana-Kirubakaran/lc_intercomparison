@@ -36,15 +36,16 @@ These libraries are used for:
 
 2. Loading Raster Data
    
-def load_raster(path):
+`def load_raster(path):
     with rasterio.open(path) as src:
-        return src.read(1)
+        return src.read(1)`
 
 - Reads a raster file and returns a 2D NumPy array of pixel values.
 - Used for both the reference raster (ESA CCI) and comparison raster (GLC).
 
 3. Computing the Confusion Matrix
    
+```python
 def compute_confusion_matrix(y_true, y_pred, labels=None):
     y_true = np.array(y_true).flatten()
     y_pred = np.array(y_pred).flatten()
@@ -59,6 +60,7 @@ def compute_confusion_matrix(y_true, y_pred, labels=None):
         cm[label_to_index[t], label_to_index[p]] += 1
 
     return pd.DataFrame(cm, index=labels, columns=labels)
+```
 
 - Flattens rasters into 1D arrays for pixel-wise comparison
 - Determines unique land cover classes if labels not provided
