@@ -204,8 +204,10 @@ git clone https://github.com/Keerthana-Kirubakaran/lc_intercomparison.git
 cd lc_intercomparison
 
 (Optional but recommended) Create a Conda environment:
+```python
 conda create -n lc_intercomparison python=3.9 -y
 conda activate lc_intercomparison
+```
 
 Install dependencies:
 ```python
@@ -213,11 +215,18 @@ pip install numpy pandas rasterio matplotlib seaborn
 ```
 
 ## Usage
-1. Edit the input paths in lc_intercomparison.py to point to your land cover raster datasets:
+1. Edit the input paths in main.py to point to your land cover raster datasets:
 - Reference Landcover raster (e.g., ESA CCI)
 - Comparison Landcover raster (e.g., GLC_FCS30)
 2. Run the script:
-python lc_accuracy/lc_intercomparison.py
+```python
+lc_accuracy/
+rater_io.py
+confusion_matrix.py
+accuracy_metrics.py
+main.py
+```
+
 3. All outputs will be saved automatically in the output/ directory.
 
 ## Outputs
@@ -225,6 +234,7 @@ The framework produces:
 - Confusion matrix (CSV) – class-by-class comparison
 - Accuracy summary (CSV) – OA, Kappa, mean PA, mean UA
 - Confusion matrix heatmap (PNG) – visual representation of agreement
+
 These outputs are suitable for inclusion in reports, course submissions, and scientific manuscripts.
 
 ## Data Assumptions & Notes
