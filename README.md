@@ -19,13 +19,15 @@ The methodology follows best practices recommended in the remote sensing accurac
 ## Code Overview
 1. Imports and Dependencies
 
-`import numpy as np
+```python
+import numpy as np
 import pandas as pd
 import rasterio
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 import sys`
+```
 
 These libraries are used for:
 -numpy: Array manipulation and numerical calculations
@@ -36,9 +38,11 @@ These libraries are used for:
 
 2. Loading Raster Data
    
-`def load_raster(path):
+```python
+def load_raster(path):
     with rasterio.open(path) as src:
-        return src.read(1)`
+        return src.read(1)
+```
 
 - Reads a raster file and returns a 2D NumPy array of pixel values.
 - Used for both the reference raster (ESA CCI) and comparison raster (GLC).
@@ -71,14 +75,17 @@ def compute_confusion_matrix(y_true, y_pred, labels=None):
    
 a) Overall Accuracy (OA)
 
+```python
 def overall_accuracy(confusion_matrix):
     cm = confusion_matrix.values
     return np.trace(cm) / cm.sum()
+```
 
 - Percentage of correctly classified pixels (sum of diagonal / total pixels)
 
 b) Kappa Coefficient
 
+```python
 def kappa_coefficient(confusion_matrix):
     cm = confusion_matrix.values
     total = cm.sum()
@@ -87,27 +94,32 @@ def kappa_coefficient(confusion_matrix):
     col_marginals = cm.sum(axis=0)
     pe = np.sum(row_marginals * col_marginals) / (total ** 2)
     return (po - pe) / (1 - pe)
+```
 
 - Measures agreement accounting for chance
 - Values range from -1 to 1, with 1 indicating perfect agreement
 
 c) Producer’s Accuracy (PA)
 
+```python
 def producers_accuracy(confusion_matrix):
     cm = confusion_matrix.values
     correct = np.diag(cm)
     reference_total = cm.sum(axis=1)
     return correct / reference_total
+```
 
 - Probability that a reference pixel is correctly classified (omission error)
 
 d) User’s Accuracy (UA)
 
+```python
 def users_accuracy(confusion_matrix):
     cm = confusion_matrix.values
     correct = np.diag(cm)
     classified_total = cm.sum(axis=0)
     return correct / classified_total
+```
 
 - Probability that a pixel classified into a category actually belongs to that category (commission error)
 
@@ -185,7 +197,7 @@ The paths to these raster files must be updated manually in `lc_intercomparison_
 
 ## Installation
 Clone the repository:
-git clone https://github.com/keerthana-150397/lc_intercomparison.git
+git clone https://github.com/Keerthana-Kirubakaran/lc_intercomparison.git
 cd lc_intercomparison
 
 (Optional but recommended) Create a Conda environment:
