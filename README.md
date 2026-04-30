@@ -188,7 +188,6 @@ lc_intercomparison/
 data/
 ├── reference_lc.tif  ( Reference Landcover raster)
 └── comparison_lc.tif  (Comparison Landcover raster)
-
 ```
 Ensure that the input rasters:
 - Are in GeoTIFF (`.tif`) format
