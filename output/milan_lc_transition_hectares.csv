@@ -1,0 +1,17 @@
+2000,10 cropland_rainfed,11 cropland_rainfed_herbaceous_cover,12 cropland_rainfed_tree_or_shrub_cover,20 cropland_irrigated,30 mosaic_cropland,40 mosaic_natural_vegetation,60 tree_broadleaved_deciduous_closed_to_open,70 tree_needleleaved_evergreen_closed_to_open,90 tree_mixed,100 mosaic_tree_and_shrub,130 grassland,150 sparse_vegetation,180 shrub_or_herbaceous_cover_flooded,190 urban,200 bare_areas,210 water
+10 cropland_rainfed,59646.38,0.0,0.0,0.0,0.0,0.0,516.45,0.0,0.0,13.41,0.0,0.0,0.0,9638.13,0.0,0.0
+11 cropland_rainfed_herbaceous_cover,0.0,107193.12,0.0,0.0,0.0,0.0,429.26,0.0,0.0,0.0,0.0,0.0,0.0,3480.99,0.0,0.0
+12 cropland_rainfed_tree_or_shrub_cover,0.0,0.0,120.73,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+20 cropland_irrigated,0.0,0.0,0.0,86642.52,0.0,0.0,1213.99,6.71,0.0,33.54,0.0,0.0,0.0,1569.47,0.0,0.0
+30 mosaic_cropland,0.0,26.83,0.0,0.0,11435.63,26.83,368.89,0.0,0.0,13.41,0.0,0.0,0.0,1039.6,0.0,0.0
+40 mosaic_natural_vegetation,0.0,0.0,0.0,0.0,0.0,5493.13,301.82,0.0,0.0,13.41,0.0,0.0,0.0,80.49,0.0,0.0
+60 tree_broadleaved_deciduous_closed_to_open,107.31,274.99,0.0,114.02,73.78,147.56,31838.68,0.0,0.0,87.19,6.71,0.0,0.0,342.06,40.24,0.0
+70 tree_needleleaved_evergreen_closed_to_open,0.0,0.0,0.0,0.0,0.0,0.0,0.0,717.66,0.0,13.41,0.0,0.0,0.0,26.83,6.71,0.0
+90 tree_mixed,13.41,20.12,0.0,0.0,13.41,0.0,0.0,0.0,2568.83,26.83,0.0,0.0,6.71,288.41,0.0,0.0
+100 mosaic_tree_and_shrub,0.0,6.71,0.0,0.0,6.71,0.0,60.36,6.71,0.0,3930.37,0.0,0.0,0.0,295.11,0.0,0.0
+130 grassland,0.0,0.0,0.0,0.0,0.0,0.0,33.54,0.0,0.0,13.41,402.43,0.0,0.0,0.0,0.0,0.0
+150 sparse_vegetation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.71,0.0,0.0,0.0,0.0
+180 shrub_or_herbaceous_cover_flooded,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+190 urban,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,99526.89,0.0,0.0
+200 bare_areas,0.0,0.0,0.0,0.0,0.0,0.0,114.02,0.0,0.0,6.71,0.0,0.0,0.0,9463.74,6304.69,0.0
+210 water,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.71,0.0,1535.93

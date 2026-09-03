@@ -1,0 +1,17 @@
+,2000_ha,2020_ha,net_ha
+10 cropland_rainfed,69814.37,59767.11,-10047.26
+11 cropland_rainfed_herbaceous_cover,111103.37,107521.77,-3581.6
+12 cropland_rainfed_tree_or_shrub_cover,120.73,120.73,0.0
+20 cropland_irrigated,89466.21,86756.54,-2709.67
+30 mosaic_cropland,12911.2,11529.53,-1381.67
+40 mosaic_natural_vegetation,5888.85,5667.51,-221.33
+60 tree_broadleaved_deciduous_closed_to_open,33032.54,34877.0,1844.46
+70 tree_needleleaved_evergreen_closed_to_open,764.61,731.08,-33.54
+90 tree_mixed,2937.72,2568.83,-368.89
+100 mosaic_tree_and_shrub,4305.97,4151.7,-154.26
+130 grassland,449.38,409.13,-40.24
+150 sparse_vegetation,6.71,6.71,0.0
+180 shrub_or_herbaceous_cover_flooded,0.0,6.71,6.71
+190 urban,99526.89,125758.42,26231.53
+200 bare_areas,15889.16,6351.64,-9537.52
+210 water,1542.64,1535.93,-6.71
